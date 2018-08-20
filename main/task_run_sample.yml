@@ -1,13 +1,14 @@
 ---
 platform: linux
+
 image_resource:
   type: docker-image
   source: {repository: busybox}
-  
+
 inputs:
-- name: tutorial
-  path: concourseci/main
-  
+- name: resource-tutorial
+- name: resource-app
+  path: tutorial/main/github.com/aashika0929/concourseci
+
 run:
-  path: concourseci/main/script.sh
-  
+  path: tutorial/main/script.sh
