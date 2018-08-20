@@ -11,4 +11,9 @@ inputs:
   path: gopath/src/github.com/cloudfoundry-community/simple-go-web-app
 
 run:
-  path: resource-tutorial/main/script.sh
+  path: sh
+  args:
+    - -exc
+    - |
+    - echo hello
+   
