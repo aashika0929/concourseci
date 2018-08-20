@@ -8,11 +8,9 @@ image_resource:
 inputs:
 - name: resource-tutorial
 - name: resource-app
-  
-  
 
 run:
   path: sh
   args: [resource-tutorial/main/script.sh]
-  args: [resource-tutorial/main/script2.sh]
+ 
  
