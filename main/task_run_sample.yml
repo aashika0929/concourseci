@@ -8,8 +8,8 @@ image_resource:
 inputs:
 - name: resource-tutorial
 - name: resource-app
-  path: aashika0929/concourseci
+  
 
 run:
-  path: concourseci/main/task_run_sample.sh
+  path: resource-tutorial/concourseci/main/script.sh
  
