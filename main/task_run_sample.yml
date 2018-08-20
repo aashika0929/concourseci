@@ -3,6 +3,6 @@ platform: linux
 
 inputs:
 - name: tutorial
-  path: 
+  path: tutorial/main
 run:
-  path: script.sh
+  path: tutorial/main/script.sh
