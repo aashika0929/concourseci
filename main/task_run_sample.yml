@@ -8,12 +8,8 @@ image_resource:
 inputs:
 - name: resource-tutorial
 - name: resource-app
-  path: gopath/src/github.com/cloudfoundry-community/simple-go-web-app
+  path: aashika0929/concourseci
 
 run:
-  path: sh
-  args:
-    - -exc
-    - |
-    - echo hello
-   
+  path: resource-tutorial/main/task_run_sample.sh
+ 
