@@ -11,5 +11,6 @@ inputs:
   
 
 run:
-  path: resource-tutorial/main/script.sh
+  path: sh
+  args: [resource-tutorial/main/script.sh]
  
