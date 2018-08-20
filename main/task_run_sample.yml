@@ -9,8 +9,10 @@ inputs:
 - name: resource-tutorial
 - name: resource-app
   
+  
 
 run:
   path: sh
   args: [resource-tutorial/main/script.sh]
+  args: [resource-tutorial/main/script1.sh]
  
