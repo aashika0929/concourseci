@@ -10,9 +10,5 @@ inputs:
   path: tutorial/main
   
 run:
-  path: sh
-  args:
-  - -exc
-  - |
-    whoami
-    pwd
+  path: tutorial/main/script.sh
+  
