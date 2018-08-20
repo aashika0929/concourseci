@@ -11,5 +11,5 @@ inputs:
   
 
 run:
-  path: resource-tutorial/concourseci/main/script.sh
+  path: resource-tutorial/main/script.sh
  
