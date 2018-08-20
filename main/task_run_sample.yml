@@ -11,5 +11,5 @@ inputs:
   path: aashika0929/concourseci
 
 run:
-  path: resource-tutorial/main/task_run_sample.sh
+  path: concourseci/main/task_run_sample.sh
  
