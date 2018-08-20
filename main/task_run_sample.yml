@@ -1,8 +1,8 @@
 ---
-
+platform: linux
 
 inputs:
 - name: tutorial
-  path: tutorial/main
+  
 run:
   path: tutorial/main/script.sh
